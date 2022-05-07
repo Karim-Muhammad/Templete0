@@ -239,10 +239,29 @@ section.content .left-content .pcontent + .tags-blog ul li{
     color:#adadd8;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
-
-
-
-
+/* Reply Form */
+.form {
+    background-color: #9090e8;
+    overflow: hidden;
+}
+.form input {
+    width: calc(98%/2);
+    padding: 10px;
+    border: none;
+    float: left;
+    margin-bottom: 10px;
+}
+.form input:nth-child(1) {margin-right: 2%;}
+.form textarea {
+    width: 100%;
+    height: 70px;
+    padding: 7px;
+    border: none;
+}
+.form input[type=submit] {
+    background-color: rgba(123, 27, 219, 0.699);
+    color: #FFF;
+}
 
 
 

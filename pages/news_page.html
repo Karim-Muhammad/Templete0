@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/sections/general.css">
-    <link rel="stylesheet" href="css/sections/header.css">
-    <link rel="stylesheet" href="css/css_pages/news.css">
+    <link rel="stylesheet" href="../css/sections/general.css">
+    <link rel="stylesheet" href="../css/sections/header.css">
+    <link rel="stylesheet" href="../css/sections/footer.css">
+    <link rel="stylesheet" href="../css/css_pages/news.css">
     <script src="https://kit.fontawesome.com/a363edd0e0.js" crossorigin="anonymous"></script>
     <title>News</title>
 </head>
@@ -14,12 +15,12 @@
     <div class="header">
         <div class="container">
             <div class="logo-image">
-                <a href="indx.html">
-                    <img src='images/logo-alt.webp' alt='aaaaa'/>
+                <a href="../index.html">
+                    <img src='../images/logo-alt.webp' alt='aaaaa'/>
                 </a>
             </div>
             <ul>
-                <li class="active"><a href="indx.html">Home</a></li>
+                <li class="active"><a href="../index.html">Home</a></li>
                 <li class="blogs">
                     <a href="#">Blogs</a>
                     <ul class="blogs-dropdown">
@@ -43,7 +44,7 @@
         <div class="container">
             <h1>News Page</h1>
             <ul class="breadcrump">
-                <li><a href="indx.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="news_page.html">News</a></li>
             </ul>
         </div>
@@ -53,7 +54,7 @@
             <div class="left-content">
                 <div class="blog-content">
                     <div class="blog-img">
-                        <img src="images/blog/blog1.webp" alt="blog-img">
+                        <img src="../images/blog/blog1.webp" alt="blog-img">
                         <ul class="statics">
                             <li class="author">
                                 <i class="fa-solid fa-user"></i>
@@ -93,7 +94,7 @@
                     </div><!-- /.tags-blog -->
                     <div class="author"> <!-- 44:22 -->
                         <div class="img-author">
-                            <img src="images/team/team1.webp" alt="">
+                            <img src="../images/team/team1.webp" alt="">
                         </div><!-- /.img-author -->
                         <div class="about-author">
                             <h3 class="name-author">john doe</h3>
@@ -123,7 +124,7 @@
                         </div>
                         <div class="commenter">
                             <div class="img">
-                                <img src="images/team/team1.webp" alt="">
+                                <img src="../images/team/team1.webp" alt="">
                             </div><!-- /.img -->
                             <div class="info">
                                 <h4 class="comnt-author">john doe</h4>
@@ -134,7 +135,7 @@
                         </div><!-- /.commenter -->
                         <div class="commenter">
                             <div class="img">
-                                <img src="images/team/team2.webp" alt="">
+                                <img src="../images/team/team2.webp" alt="">
                             </div><!-- /.img -->
                             <div class="info">
                                 <h4 class="comnt-author">john doe</h4>
@@ -145,7 +146,7 @@
                         </div><!-- /.commenter -->
                         <div class="commenter">
                             <div class="img">
-                                <img src="images/team/team3.webp" alt="">
+                                <img src="../images/team/team3.webp" alt="">
                             </div><!-- /.img -->
                             <div class="info">
                                 <h4 class="comnt-author">john doe</h4>
@@ -156,6 +157,20 @@
                         </div><!-- /.commenter -->
                     </div><!-- /.div-comment -->
                 </div><!-- /.blog-content -->
+                <div class="reply-form">
+                    <div class="section-header">
+                        <div class="section-title">leave you reply</div>
+                        <div class="line"></div>
+                        <div class="form">
+                            <form action="">
+                                <input type="text" name="name" id="name" placeholder="username">
+                                <input type="email" name="email" id="email" placeholder="Email">
+                                <textarea name="comment" id="comment" placeholder="Add Your Comment"></textarea>
+                                <input type="submit" value="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div><!-- /.left-content -->
             <div class="right-content">
                 <div class="search">
@@ -182,7 +197,7 @@
                         <li>
                             <div class="contents-post">
                                 <div class="img-blog">
-                                    <img src="images/blog/blog1.webp" alt="img">
+                                    <img src="../images/blog/blog1.webp" alt="img">
                                 </div><!-- /.img -->
                                 <div class="content-post">
                                     <h2>Blog name</h2>
@@ -193,7 +208,7 @@
                         <li>
                             <div class="contents-post">
                                 <div class="img-blog">
-                                    <img src="images/blog/blog1.webp" alt="">
+                                    <img src="../images/blog/blog1.webp" alt="">
                                 </div><!-- /.img -->
                                 <div class="content-post">
                                     <h2>Blog name</h2>
@@ -204,7 +219,7 @@
                         <li>
                             <div class="contents-post">
                                 <div class="img-blog">
-                                    <img src="images/blog/blog1.webp" alt=""> <!-- alt value cause the error?! -->
+                                    <img src="../images/blog/blog1.webp" alt=""> <!-- alt value cause the error?! -->
                                 </div><!-- /.img -->
                                 <div class="content-post">
                                     <h2>Blog name</h2>
@@ -228,7 +243,45 @@
                 </div><!-- /.tags -->
             </div><!-- /.right-content -->
             <div class="clear"></div>
+        </div><!-- /.container -->
+    </section><!-- /.content -->
+    <section class="footer">
+        <div class="img-footer">
+            <img src="/images/logo-alt.webp" alt="">
         </div>
+        <ul class="social">
+            <li class="opacity-effect">
+                <a href="https://facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="opacity-effect">
+                <a href="https://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="opacity-effect">
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="opacity-effect">
+                <a href="https://google.com">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+            </li>
+            <li class="opacity-effect">
+                <a href="https://youtube.com">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="opacity-effect">
+                <a href="https://linkedin.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <p>copyright &copy; 2022 all rights reserved designed by <span>karim</span> by monitor <span>unique coderz</span></p>
     </section>
 </body>
 </html>
