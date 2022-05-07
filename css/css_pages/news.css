@@ -1,3 +1,8 @@
+/* Header Modify Style */
+div.header {
+    background-color: #e2e8e6;
+    color: black;
+}
 /* Modify general style */
 section {
     width: 100%;
@@ -22,8 +27,8 @@ div.section-header .line {
 }
 /* breadcrump navigation STYLE */
 .div-bread-crump {
+    background-color:#f5f6f6;
     height: 10vh;
-    background-color:rgb(226, 232, 230);
     margin-bottom: 20px;
 }
 .div-bread-crump h1 {
@@ -54,21 +59,21 @@ div.section-header .line {
     content: "/";
     padding: 4px;
     /*font-size: 4px; prevent making this ::before*/
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 .div-bread-crump ul li a{
     text-decoration: none;
 }
 /* Content */
 section.content {
+    /* background-color: antiquewhite; */
     overflow: hidden;
-    background-color: antiquewhite;
 }
 /* Left Content */
 section.content .left-content {
+    /* background-color: rgb(104, 96, 86); */
     margin-right: 10px;
     float: left;
-    /* background-color: rgb(104, 96, 86); */
     width: 70%;
     font-size: 20px;
 }
@@ -109,8 +114,8 @@ section.content .left-content .pcontent + .tags-blog ul li{
 */
 /* author style */
 .author {
-    border: 1px solid #d8d223;
     /* background-color: #9090e8; */
+    border: 1px solid #d8d223;
     color: black;
     padding: 20px;
 }
@@ -202,7 +207,7 @@ section.content .left-content .pcontent + .tags-blog ul li{
     overflow: hidden;
 }
 .div-comment .commenter div.img {
-    background-color: #00ff7bcb;
+    /* background-color: #00ff7bcb; */ /* Try toggle (uncomment) this */
     width: 10%;
     float: left;
 }
@@ -214,17 +219,17 @@ section.content .left-content .pcontent + .tags-blog ul li{
     background-color: #adadd8;
 }
 .commenter .info {
-    background-color: red;
+    /* background-color: red; */
     width: 87.9%;
     margin-left: 2.1%;
     float: left;
     position: relative;
 }
 .commenter .info a.reply {
+    color: rgb(138, 219, 230);
     position: absolute;
     right: 0px;
     text-decoration: none;
-    color: rgb(138, 219, 230);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
@@ -239,9 +244,13 @@ section.content .left-content .pcontent + .tags-blog ul li{
     color:#adadd8;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
+.commenter .info p.content-comment {
+    font-size: 17px;
+    width: 90%;
+}
 /* Reply Form */
 .form {
-    background-color: #9090e8;
+    /* background-color: #9090e8; */
     overflow: hidden;
 }
 .form input {
@@ -251,6 +260,9 @@ section.content .left-content .pcontent + .tags-blog ul li{
     float: left;
     margin-bottom: 10px;
 }
+.form input, .form textarea {
+    background-color: #f5f6f6;
+}
 .form input:nth-child(1) {margin-right: 2%;}
 .form textarea {
     width: 100%;
@@ -259,7 +271,7 @@ section.content .left-content .pcontent + .tags-blog ul li{
     border: none;
 }
 .form input[type=submit] {
-    background-color: rgba(123, 27, 219, 0.699);
+    background-color: rgba(123, 27, 219, 0.699);/* first be like other input and then becomes purble and this wrong code, low performance*/
     color: #FFF;
 }
 
