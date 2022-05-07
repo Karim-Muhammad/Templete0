@@ -29,6 +29,9 @@
 }
 /* another way with animation */
 .header .container > ul li::after {
+    /* any li within ul, if you want direct son of ul so use ul > li
+    otherwise the style will apply on childs(li) with in ul which son of container
+    */
     content: "";
     display: block;
     width: 0%;
